@@ -300,8 +300,8 @@ export const testimonials = [
       'DELIBOT did not just “do social.” They built a narrative I could actually own — in rooms, on stage, and on LinkedIn.',
   },
   {
-    name: 'Ishaan Varghese',
-    role: 'Managing Partner, Northline',
+    name: 'Ananya Krishnan',
+    role: 'Managing Partner, Northline Consulting',
     image: '/images/portrait-consultant.jpg',
     quote:
       'The PR work felt precise. Fewer vanity mentions, more of the right conversations with the right people.',
