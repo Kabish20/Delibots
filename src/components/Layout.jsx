@@ -16,12 +16,12 @@ const nav = [
 
 function Logo() {
   return (
-    <Link to="/" className="flex items-center gap-3">
+    <Link to="/" className="flex items-center">
       <img
-        src="/images/logo-delibot.jpg"
+        src="/logo/delibots-logo.png"
         alt="Delibots logo"
-        className="h-10 w-auto object-contain"
-        style={{ maxWidth: '160px' }}
+        className="h-11 w-auto object-contain"
+        style={{ maxWidth: '170px' }}
       />
     </Link>
   )
