@@ -14,14 +14,13 @@ const nav = [
   { to: '/contact', label: 'Contact' },
 ]
 
-function Logo() {
+function Logo({ className = 'h-10 md:h-12' }) {
   return (
-    <Link to="/" className="flex items-center">
+    <Link to="/" className="flex items-center group">
       <img
         src="/logo/delibots-logo.png"
         alt="Delibots logo"
-        className="h-11 w-auto object-contain"
-        style={{ maxWidth: '170px' }}
+        className={`${className} w-auto object-contain transition-transform duration-300 group-hover:scale-105`}
       />
     </Link>
   )
@@ -174,7 +173,7 @@ export default function Layout() {
       <footer className="border-t border-white/10 bg-ink-2">
         <div className="mx-auto grid max-w-7xl gap-12 px-6 py-16 md:grid-cols-4 md:px-8">
           <div className="md:col-span-2">
-            <Logo />
+            <Logo className="h-12 md:h-14" />
             <p className="mt-5 max-w-md text-sm leading-relaxed text-cream/55">
               Personal Branding • PR • Digital Marketing • Websites • Video Production
             </p>
